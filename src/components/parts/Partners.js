@@ -4,7 +4,7 @@ import opensea from '../../img/opensea.png'
 
 function Partners() {
   return (
-    <section className="flex justify-evenly">
+    <section id="partners" className="flex justify-evenly align-center full-width">
         <img src={mbtoken} alt="MBToken" />
         <img src={metamask} alt="MetaMask" />
         <img src={opensea} alt="OpenSea" />
