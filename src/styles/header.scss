@@ -1,0 +1,40 @@
+header{
+    padding: 20px 40px;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    .logo{
+        width: 100%;
+        max-width: 220px;
+        img{
+            width: 100%;
+            max-width: 250px;
+        }
+    }
+    nav{
+        width: 80%;
+        ul{
+            gap: 10px;
+            li{
+                display: inline-block;
+                a{
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    color: $black;
+                }
+            }
+        }
+    }
+    button{
+        background-color: $purple;
+        padding: 10px 20px;
+        display: block;
+        border: none;
+        width: 15%;
+        color: white;
+        border-radius: 10px;
+        font-family: 'Red Rose', cursive;
+    }
+}
