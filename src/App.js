@@ -1,4 +1,5 @@
 import Main from './components/Main'
+import PlaceToStay from './components/PlaceToStay'
 import Header from './components/parts/Header'
 import Footer from './components/parts/Footer'
 import './App.scss';
@@ -14,7 +15,7 @@ function App() {
       <Header /><Router>
           <Routes>
             <Route exact path="/" element={<Main />} />
-            {/* <Route exact path="/places-to-stay" element={<Contact />} /> */}
+            <Route exact path="/places-to-stay" element={<PlaceToStay />} />
           </Routes>
         </Router>
       <Footer />

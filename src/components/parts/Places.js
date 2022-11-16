@@ -1,9 +1,8 @@
-import React from 'react'
 import Place from './Place.js'
 import data from '../../data/images'
 
 function Places() {
-    const image = data.map(item => {
+    const image = data.slice(0, 8).map(item => {
         return (
             <Place
                 key={`${Math.random() * 10380203040390}`}
@@ -13,9 +12,9 @@ function Places() {
         )
     })
     return (
-        <div>
+        <section className='place flex wrap justify-center'>
             {image}
-        </div>
+        </section>
     )
 }
 

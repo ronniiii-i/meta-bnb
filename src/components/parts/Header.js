@@ -9,7 +9,7 @@ function Nav({  popupMenu }) {
       <nav>
         <ul className="flex justify-center">
           <li><a href="/">Home</a></li>
-          <li><a href="/">Place to Stay</a></li>
+          <li><a href="/places-to-stay">Place to Stay</a></li>
           <li><a href="/">NFTs</a></li>
           <li><a href="/">Community</a></li>
         </ul>

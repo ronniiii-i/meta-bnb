@@ -1,11 +1,10 @@
 import stars from '../../img/stars.png'
 
-function Place({ link, text }) {
+function Place({ link }) {
   return (
-    <div>
+    <div className='card'>
         <div className="image">
             <img src={link} alt="Location" />
-            <h1>{text}</h1>
         </div>
         <div className="details">
             <div className="flex justify-between align-center">

@@ -1,35 +1,51 @@
 const images = [
     {
-        link: require('../../img/f1.png'),
-        text: 'h1',
+        link: require('../img/frames/f1.png'),
     },
     {
-        link: require('../../img/f2.png'),
-        text: 'h1',
+        link: require('../img/frames/f2.png'),
     },
     {
-        link: require('../../img/f3.png'),
-        text: 'h1',
+        link: require('../img/frames/f3.png'),
     },
     {
-        link: require('../../img/f4.png'),
-        text: 'h1',
+        link: require('../img/frames/f4.png'),
     },
     {
-        link: require('../../img/f5.png'),
-        text: 'h1',
+        link: require('../img/frames/f5.png'),
     },
     {
-        link: require('../../img/f6.png'),
-        text: 'h1',
+        link: require('../img/frames/f6.png'),
     },
     {
-        link: require('../../img/f7.png'),
-        text: 'h1',
+        link: require('../img/frames/f7.png'),
     },
     {
-        link: require('../../img/f8.png'),
-        text: 'h1',
+        link: require('../img/frames/f8.png'),
+    },
+    {
+        link: require('../img/frames/f9.png'),
+    },
+    {
+        link: require('../img/frames/fa.png'),
+    },
+    {
+        link: require('../img/frames/fb.png'),
+    },
+    {
+        link: require('../img/frames/fc.png'),
+    },
+    {
+        link: require('../img/frames/fd.png'),
+    },
+    {
+        link: require('../img/frames/fe.png'),
+    },
+    {
+        link: require('../img/frames/ff.png'),
+    },
+    {
+        link: require('../img/frames/fg.png'),
     },
 ]
 
