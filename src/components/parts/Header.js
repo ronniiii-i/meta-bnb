@@ -1,6 +1,6 @@
 import logo from '../../img/logo.png'
 
-function Nav({  popupMenu }) {
+function Nav({ popupMenu }) {
   return (
     <header className="flex justify-center align-center full-width">
       <a className="logo" href="/">
