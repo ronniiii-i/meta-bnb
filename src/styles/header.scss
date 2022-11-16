@@ -73,6 +73,7 @@ header {
         top: 0;
         bottom: 0;
         background-color: white;
+        box-shadow: 3px 0px 10px -3px $purple;
         width: 40%;
         display: flex;
         align-items: flex-start;
@@ -121,8 +122,8 @@ header {
       top: 0;
       bottom: 0;
       background-color: white;
-      box-shadow: 1px 0px 5px -3px $purple;
-      width: 70%;
+      box-shadow: 3px 0px 10px -3px $purple;
+      width: 80%;
       display: flex;
       flex-direction: column;
       align-items: center;
