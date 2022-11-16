@@ -101,13 +101,13 @@ header {
       display: flex;
       &.open {
         .line1 {
-          transform: rotate(405deg) translate(4px, 5px);
+          transform: rotate(405deg) translate(3px, 3px);
         }
         .line2 {
           opacity: 0;
         }
         .line3 {
-          transform: rotate(-405deg) translate(4px, -5px);
+          transform: rotate(-405deg) translate(4px, -4px);
         }
       }
     }
