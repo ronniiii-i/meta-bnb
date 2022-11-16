@@ -1,14 +1,16 @@
-import Nav from './parts/Nav'
 import Hero from './parts/Hero'
 import Partners from './parts/Partners'
+import Places from './parts/Places'
+import More from './parts/More'
 
 function Main() {
     return (
-        <div>
-            <Nav />
+        <main>
             <Hero />
             <Partners />
-        </div>
+            <Places />
+            <More />
+        </main>
     )
 }
 

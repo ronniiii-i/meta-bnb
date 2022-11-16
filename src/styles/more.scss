@@ -1,0 +1,33 @@
+#more{
+    padding: 5rem 8rem;
+    background-color: $purple;
+    color: white;
+    .text{
+        width: 40%;
+        gap: 30px;
+        button{
+            background-color: white;
+            color: $purple;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+            width: fit-content;
+        }
+    }
+    .image{
+        width: 50%;
+        img{
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 800px){
+    #more{
+        flex-direction: column;
+        .text{
+            width: 100%;
+        }.image{
+            width: 80%;
+        }
+    }
+}

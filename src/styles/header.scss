@@ -8,7 +8,7 @@ header{
         width: 100%;
         max-width: 220px;
         img{
-            width: 100%;
+            width: 90%;
             max-width: 250px;
         }
     }
@@ -37,4 +37,7 @@ header{
         border-radius: 10px;
         font-family: 'Red Rose', cursive;
     }
+}
+@media screen and (max-width: 920px) {
+    
 }
