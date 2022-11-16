@@ -43,6 +43,7 @@ footer {
 @media screen and (max-width: 850px) {
   footer{
     #details{
+      justify-content: center;
       .column{
         width: 30%
       }
