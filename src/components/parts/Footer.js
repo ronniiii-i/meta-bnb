@@ -6,7 +6,7 @@ import twitter from '../../img/twitter.png'
 function Footer() {
     return (
         <footer>
-            <div id="details" className="flex justify-between align-stretch full-width">
+            <div id="details" className="flex justify-between align-stretch full-width wrap">
                 <div className="column flex justify-between">
                     <a href="/">
                         <img src={logo} alt="Meta BnB" />
