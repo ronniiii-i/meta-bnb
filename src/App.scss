@@ -54,3 +54,17 @@
     opacity: 0;
   }
 }
+@media screen and (max-width: 900px) {
+  .bg{
+    .content{
+      width: 70%
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .bg{
+    .content{
+      width: 100%
+    }
+  }
+}
