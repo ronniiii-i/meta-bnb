@@ -15,15 +15,15 @@ function PlaceToStay() {
     return (
         <>
             <div className="location flex justify-center align-center full-width">
-                <select name="location" id="location">
-                    <option value="Resturant"></option>
-                    <option value="Cottage"></option>
-                    <option value="Castle"></option>
-                    <option value="fantast city"></option>
-                    <option value="beach"></option>
-                    <option value="Carbins"></option>
-                    <option value="Off-grid"></option>
-                    <option value="Farm"></option>
+                <select>
+                    <option value="Resturant">Resturant</option>
+                    <option value="Cottage">Cottage</option>
+                    <option value="Castle">Castle</option>
+                    <option value="fantast city">fantast city</option>
+                    <option value="beach">beach</option>
+                    <option value="Carbins">Carbins</option>
+                    <option value="Off-grid">Off-grid</option>
+                    <option value="Farm">Farm</option>
                 </select>
                 <div className="options">
                     <ul>
