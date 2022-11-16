@@ -32,3 +32,16 @@
         }
     }
 }
+@media screen and (max-width: 500px){
+    #more{
+        padding: 5rem;
+        .image{
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 400px){
+    #more{
+        padding: 4rem;
+    }
+}
