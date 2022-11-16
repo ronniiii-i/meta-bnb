@@ -6,7 +6,7 @@ function Nav({ popupMenu, sideMenu, isActive }) {
       <a className="logo" href="/">
         <img src={logo} alt="Meta BnB" />
       </a>
-      <div className="wrapper flex justify-between align-center">
+      <div className={isActive ? "wrapper fixed flex justify-between align-center" : "wrapper flex justify-between align-center"}>
         <nav className={isActive ? "fixed" : null}>
           <ul className="flex justify-center">
             <li><a href="/">Home</a></li>

@@ -73,7 +73,6 @@ header {
         top: 0;
         bottom: 0;
         background-color: white;
-        box-shadow: 1px 0px 5px -3px $purple;
         width: 40%;
         display: flex;
         align-items: flex-start;
@@ -95,6 +94,60 @@ header {
       }
       button {
         margin-left: 5rem;
+      }
+    }
+    .burger {
+      display: flex;
+      &.open {
+        .line1 {
+          transform: rotate(405deg) translate(3px, 3px);
+        }
+        .line2 {
+          opacity: 0;
+        }
+        .line3 {
+          transform: rotate(-405deg) translate(4px, -4px);
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  header.flex {
+    justify-content: space-between;
+    .wrapper {
+      position: fixed;
+      right: -1000px;
+      top: 0;
+      bottom: 0;
+      background-color: white;
+      box-shadow: 1px 0px 5px -3px $purple;
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      nav {
+        position: relative;
+        right: 0;
+        box-shadow: none;
+        ul {
+          // width: 1000%;
+          flex-direction: column;
+          margin: 5rem auto;
+
+          li {
+            display: block;
+            text-align: center;
+          }
+        }
+      }
+      button {
+        margin-left: 0rem;
+      }
+      &.fixed {
+        right: 0;
       }
     }
     .burger {
