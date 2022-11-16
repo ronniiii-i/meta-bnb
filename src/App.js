@@ -15,6 +15,7 @@ import wallet from './img/wallet.png'
 
 function App() {
   const [isActive, setActive] = useState(false);
+  const [isOpen, setOpen] = useState(false);
 
   const openMenu = () => {
     setActive(!isActive);
@@ -22,9 +23,12 @@ function App() {
   const closeMenu = () => {
     setActive(!isActive);
   }
+  const sideMenu = () => {
+    setOpen(!isOpen);
+  }
   return (
     <section>
-      <Header popupMenu={openMenu} />
+      <Header popupMenu={openMenu} sideMenu={sideMenu} isActive={isOpen} />
       <section className={isActive ? "bg flex justify-center align-center" : "bg close"}>
         <div className="content">
           <div className="title flex justify-between align-center full-width">
